@@ -6,7 +6,7 @@ var list = document.getElementById('list'),
 add.addEventListener('click', function() {
 var element = document.createElement('li');
 for(i=0;i<=number.length;i++) {
-    element[i].innerHTML = 'item ' + i;
+    element.innerHTML = 'item ' + i;
 }
 list.appendChild(element);
-}
+} )
